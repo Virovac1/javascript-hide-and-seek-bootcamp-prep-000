@@ -19,8 +19,7 @@ rankedList[i].innerHTML = ( parseInt(rankedList[i].innerHTML) + n).toString();
 
 //idea: use querySelectorAll to generate what will be maximum length
 function deepestChild(){
-const depthList = document.getElementById('grand-node').querySelectorAll('div')
-//after length, could save lenth as a variable and then maybe do depthList.getElementsByTagName('div')[length variable]
-const d= depthList.length;
-return depthList[d];
+var grandNode = document.getElementById('grand-node');
+ grandNode.lastChild;
+
 }
