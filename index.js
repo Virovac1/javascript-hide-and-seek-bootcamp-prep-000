@@ -23,5 +23,4 @@ const depthList = document.getElementById('grand-node').querySelectorAll('div')
 //after length, could save lenth as a variable and then maybe do depthList.getElementsByTagName('div')[length variable]
 const d= depthList.length;
 return depthList[d];
-
 }
