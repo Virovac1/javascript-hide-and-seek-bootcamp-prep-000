@@ -18,8 +18,8 @@ rankedList[i].innerHTML = ( parseInt(rankedList[i].innerHTML) + n).toString();
 }
 
 //idea: use querySelectorAll to generate what will be maximum length
-deepestChild();{
+deepestChild(){
 var grandNode = document.getElementById('grand-node');
-return grandNode.lastChild;
+ grandNode.lastChild;
 }
 /// how do I get/gather/call on the whole group of divs beforehand? Maybe 
